@@ -1,8 +1,7 @@
-import { useState } from "react";
 import "./styles/GameMenu.css";
 import bolosImage from "../assets/bolos.png";
 
-function GameMenu({ gameState, setGameState, username ,setUsername, score, setScore}) {
+function GameMenu({ gameState, setGameState, username, setUsername, score, setScore}) {
 
   const handleStart = () => {
     setGameState("username");
