@@ -12,10 +12,10 @@ function App() {
             {gameState != 'game' ? (
                 <GameMenu gameState={gameState} setGameState={setGameState} username={username} setUsername={setUsername} score={score} setScore={setScore}/>
             ) : (
-                <App username={username} setGameState={setGameState} score={score} setScore={setScore}/>
+                <Game username={username} setGameState={setGameState} score={score} setScore={setScore}/>
             )}
         </div>
     );
 }
 
-export default Game;
+export default App;

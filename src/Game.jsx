@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { Canvas, useThree } from "@react-three/fiber";
 import { Physics } from "@react-three/cannon";
-import { Line} from "@react-three/drei";
-import Skybox from "./components/Skybox";
+import { Line } from "@react-three/drei";
+import { Skybox } from "./components/Skybox";
 import Carril from "./components/Carril";
 import Pins from "./components/Pins";
 import Bola from "./components/Bola";
 import Flecha from "./components/Flecha";
-import "./App.css";
+import "./Game.css";
 
 function Camera({ zoom }) {
   const { camera } = useThree();
